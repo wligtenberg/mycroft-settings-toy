@@ -6,6 +6,6 @@ class skill1(skill):
         print 'skill1 called'
 
     def define_configuration(self):
-        panel = BootstrapPanel('Skill 2 configuration options')
+        panel = BootstrapPanel('Skill 1 configuration options')
         panel.append(BootstrapInputGroup('username'))
         return(panel)
